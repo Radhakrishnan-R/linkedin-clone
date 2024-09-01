@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Clone App</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <a href="./index.html"><img src="./assets/images/logo.png" alt="logo" /></a>
+               <div class="search">
+                <img src="./assets/images/search.png" alt="search" />
+                <input type="text" placeholder="Search"/>
+               </div>
+            </div>
+            <div class="navbar-middle">
+                <ul>
+                    <li><a href="#" id="active-nav"><img src="./assets/images/home.png" alt="home"><span>Home</span></a></li>
+                    <li><a href="#"><img src="./assets/images/network.png" alt="home"><span>My Network</span></a></li>
+                    <li><a href="#"><img src="./assets/images/jobs.png" alt="home"><span>Jobs</span></a></li>
+                    <li><a href="#"><img src="./assets/images/message.png" alt="home"><span>Messaging</span></a></li>
+                    <li><a href="#"><img src="./assets/images/notification.png" alt="home"><span>Notification</span></a></li>
+                </ul>
+            </div>
+            <div class="navbar-right">
+                <img src="./assets/images/user-1.png" alt="profile-pic">
+                
+            </div>
+
+            <div class="profile-menu-wrapper">
+                <div class="profile-menu">
+                    <div class="profile-user">
+                        <img src="./assets/images/user-1.png" alt="user-1">
+                        <div>
+                            <h3>Ryan renolds</h3>
+                        <a href="./profile-page.html"><span>View Profile</span></a>
+                        </div>
+                    </div>
+                    <hr />
+                   <a href="#">
+                    <img src="./assets/images/feedback.png" alt="feedback" />
+                    <p>Give Feedback</p>
+                    <span>></span>
+                   </a>
+                   <a href="#">
+                    <img src="./assets/images/setting.png" alt="setting" />
+                    <p>Setting & Privacy</p>
+                    <span>></span>
+                   </a>
+                   <a href="#">
+                    <img src="./assets/images/help.png" alt="help" />
+                    <p>Help & Support</p>
+                    <span>></span>
+                   </a>
+                   <a href="#">
+                    <img src="./assets/images/display.png" alt="display" />
+                    <p>Display & Accessability</p>
+                    <span>></span>
+                   </a>
+                   <a href="#">
+                    <img src="./assets/images/logout.png" alt="logout" />
+                    <p>Logout</p>
+                    <span>></span>
+                   </a>
+    
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+
+    <!-- ------------------ header ends here ------------------ -->
+
+    <div class="container">
+
+        <div class="left-content">
+            <div class="show-profile-box">
+                <img src="./assets/images/cover-pic.png" alt="cover-pic">
+                <div class="show-profile-info">
+                    <img src="./assets/images/user-1.png" alt="">
+                    <h1>Ryan Renolds</h1>
+                    <h3>Web developer at Microsoft</h3>
+                    <ul>
+                        <li>Your profile views<span>52</span></li>
+                        <li>Your post views<span>800</span></li>
+                        <li>Your connection<span>205</span></li>
+                    </ul>
+                </div>
+                <div class="sidebar-profile-links">
+                    <a href="#"><img src="./assets/images/items.png" alt="premium">Try Items</a>
+                    <a href="#"><img src="./assets/images/premium.png" alt="premium">Try Premium</a>
+                </div>
+            </div>
+
+            <div class="sidebar-links">
+                <h3>RECENT</h3>
+                <a href="#"><img src="./assets/images/recent.png" alt="recent">Web Development</a>
+                <a href="#"><img src="./assets/images/recent.png" alt="recent">User Interface</a>
+                <a href="#"><img src="./assets/images/recent.png" alt="recent">Online Learning</a>
+                <a href="#"><img src="./assets/images/recent.png" alt="recent">Learing Online</a>
+                <a href="#"><img src="./assets/images/recent.png" alt="recent">Code Better</a>
+                <a href="#"><img src="./assets/images/recent.png" alt="recent">Group Learning</a>
+                <h3>GROUPS</h3>
+                <a href="#"><img src="./assets/images/group.png" alt="recent">HTML & CSS Learners</a>
+                <a href="#"><img src="./assets/images/group.png" alt="recent">Web Design Group</a>
+                <a href="#"><img src="./assets/images/group.png" alt="recent">Phython & Javascript Group</a>
+                <a href="#"><img src="./assets/images/group.png" alt="recent">Learn Coding Online</a>
+                <h3>HASTAGS</h3>
+                <a href="#"><img src="./assets/images/hashtag.png" alt="recent">Web Development</a>
+                <a href="#"><img src="./assets/images/hashtag.png" alt="recent">User Interface</a>
+                <a href="#"><img src="./assets/images/hashtag.png" alt="recent">Online Learing</a>
+            </div>
+        </div>
+
+        <!-- ------------------ left content ends here ------------------ -->
+        <div class="main-content">
+            <div class="create-post">
+                <div class="create-post-input">
+                    <img src="./assets/images/user-1.png" alt="user-1">
+                    <textarea rows="2" placeholder="Create a post"></textarea>
+                </div>
+                <div class="create-post-links">
+                    <a href="#"><img src="/assets/images/photo.png" alt="photo">Photo</a>
+                    <a href="#"><img src="/assets/images/video.png" alt="photo">Video</a>
+                    <a href="#"><img src="/assets/images/event.png" alt="photo">Events</a>
+                    <a href="#">Posts</a>
+                </div>
+            </div>
+
+            <div class="sortby-box">
+                <hr />
+                <small>Sort by: <b>Top <img src="./assets/images/down-arrow.png" alt="down-arrow"></b></small>
+            </div>
+
+            <div class="post-card">
+                <div class="post-auther">
+                    <img src="./assets/images/user-3.png" alt="user-3">
+                    <div>
+                        <h1>Catlin West</h1>
+                        <small>Founder and CEO at Marvel Studios || Top Model</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+                <p class="post-card-content">The Marvels by the CEO highlights the incredible growth and innovation in the superhero genre, 
+                    pushing the boundaries of storytelling and visual effects. It exemplifies a commitment to diverse narratives and expanding the Marvel Universe's impact globally. This ambitious venture continues to set new benchmarks in the entertainment industry.</p>
+                <img src="./assets/images/post-image-1.png" width="100%" alt="post-image-4">
+                <div class="post-stats">
+                    <div>
+                        <img src="./assets/images/thumbsup.png" alt="thumbsup" />
+                        <img src="./assets/images/love.png" alt="love" />
+                        <img src="./assets/images/clap.png" alt="clap" />
+                        <a href="#">Vaishnav and 98 others</a>
+                    </div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+                <div class="post-links">
+                    <a href="#" >
+                        <img src="./assets/images/user-1.png" alt="user-1" class="profile-pic">
+                        <img src="./assets/images/down-arrow.png" alt="down-arrow" id="post-arrow-down">
+                    </a>
+                    <a href="#"><img src="./assets/images/like.png" alt="like">Like</a>
+                    <a href="#"><img src="./assets/images/comment.png" alt="like">comment</a>
+                    <a href="#"><img src="./assets/images/share.png" alt="like">share</a>
+                    <a href="#"><img src="./assets/images/send.png" alt="like">Send</a>
+                </div>
+            </div>
+            <div class="post-card">
+                <div class="post-auther">
+                    <img src="./assets/images/user-2.png" alt="user-3">
+                    <div>
+                        <h1>Dwane Thomas</h1>
+                        <small>Web Designer at Zoom || Content creator</small>
+                        <small>3 hours ago</small>
+                    </div>
+                </div>
+                <p class="post-card-content">The Marvels by the CEO highlights the incredible growth and innovation in the superhero genre, 
+                    pushing the boundaries of storytelling and visual effects. It exemplifies a commitment to diverse narratives and expanding the Marvel Universe's impact globally. This ambitious venture continues to set new benchmarks in the entertainment industry.</p>
+                <img src="./assets/images/post-image-2.png" width="100%" alt="post-image-4">
+                <div class="post-stats">
+                    <div>
+                        <img src="./assets/images/thumbsup.png" alt="thumbsup" />
+                        <img src="./assets/images/love.png" alt="love" />
+                        <img src="./assets/images/clap.png" alt="clap" />
+                        <a href="#">Vaishnav and 98 others</a>
+                    </div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+                <div class="post-links">
+                    <a href="#" >
+                        <img src="./assets/images/user-1.png" alt="user-1" class="profile-pic">
+                        <img src="./assets/images/down-arrow.png" alt="down-arrow" id="post-arrow-down">
+                    </a>
+                    <a href="#"><img src="./assets/images/like.png" alt="like">Like</a>
+                    <a href="#"><img src="./assets/images/comment.png" alt="like">comment</a>
+                    <a href="#"><img src="./assets/images/share.png" alt="like">share</a>
+                    <a href="#"><img src="./assets/images/send.png" alt="like">Send</a>
+                </div>
+            </div>
+            <div class="post-card">
+                <div class="post-auther">
+                    <img src="./assets/images/user-4.png" alt="user-3">
+                    <div>
+                        <h1>Sunny Leonne</h1>
+                        <small>Taking business to next level || Entrepreneur</small>
+                        <small>3 hours ago</small>
+                    </div>
+                </div>
+                <p class="post-card-content">The Marvels by the CEO highlights the incredible growth and innovation in the superhero genre, 
+                    pushing the boundaries of storytelling and visual effects. It exemplifies a commitment to diverse narratives and expanding the Marvel Universe's impact globally. This ambitious venture continues to set new benchmarks in the entertainment industry.</p>
+                <img src="./assets/images/post-image-3.png" width="100%" alt="post-image-4">
+                <div class="post-stats">
+                    <div>
+                        <img src="./assets/images/thumbsup.png" alt="thumbsup" />
+                        <img src="./assets/images/love.png" alt="love" />
+                        <img src="./assets/images/clap.png" alt="clap" />
+                        <a href="#">Vaishnav and 98 others</a>
+                    </div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+                <div class="post-links">
+                    <a href="#" >
+                        <img src="./assets/images/user-1.png" alt="user-1" class="profile-pic">
+                        <img src="./assets/images/down-arrow.png" alt="down-arrow" id="post-arrow-down">
+                    </a>
+                    <a href="#"><img src="./assets/images/like.png" alt="like">Like</a>
+                    <a href="#"><img src="./assets/images/comment.png" alt="like">comment</a>
+                    <a href="#"><img src="./assets/images/share.png" alt="like">share</a>
+                    <a href="#"><img src="./assets/images/send.png" alt="like">Send</a>
+                </div>
+            </div>
+            <div class="post-card">
+                <div class="post-auther">
+                    <img src="./assets/images/user-5.png" alt="user-3">
+                    <div>
+                        <h1>Wade Dominic</h1>
+                        <small>Tik Tok Specialist || Dancer</small>
+                        <small>3 hours ago</small>
+                    </div>
+                </div>
+                <p class="post-card-content">The Marvels by the CEO highlights the incredible growth and innovation in the superhero genre, 
+                    pushing the boundaries of storytelling and visual effects. It exemplifies a commitment to diverse narratives and expanding the Marvel Universe's impact globally. This ambitious venture continues to set new benchmarks in the entertainment industry.</p>
+                <img src="./assets/images/post-image-4.png" width="100%" alt="post-image-4">
+                <div class="post-stats">
+                    <div>
+                        <img src="./assets/images/thumbsup.png" alt="thumbsup" />
+                        <img src="./assets/images/love.png" alt="love" />
+                        <img src="./assets/images/clap.png" alt="clap" />
+                        <a href="#">Vaishnav and 98 others</a>
+                    </div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+                <div class="post-links">
+                    <a href="#" >
+                        <img src="./assets/images/user-1.png" alt="user-1" class="profile-pic">
+                        <img src="./assets/images/down-arrow.png" alt="down-arrow" id="post-arrow-down">
+                    </a>
+                    <a href="#"><img src="./assets/images/like.png" alt="like">Like</a>
+                    <a href="#"><img src="./assets/images/comment.png" alt="like">comment</a>
+                    <a href="#"><img src="./assets/images/share.png" alt="like">share</a>
+                    <a href="#"><img src="./assets/images/send.png" alt="like">Send</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------------ main content ends here ------------------ -->
+        <div class="right-content">
+            <div class="sidebar-news">
+                <img src="./assets/images/more.png" alt="more" id="more-icon">
+                <h3>Trending News</h3>
+                
+                <a href="#">High demand for skilled manned power</a>
+                <span>1d ago &middot; 10,984 readers</span>
+
+                <a href="#">Careers growing horizontally too</a>
+                <span>2d ago &middot; 11,253 readers</span>
+
+                <a href="#">Less work visa for US, more for UK</a>
+                <span>1d ago &middot; 5,356 readers</span>
+
+                <a href="#">More hiring = Higher Confidence</a>
+                <span>3d ago &middot; 12,325 readers</span>
+
+                <a href="#">Gautam Adani is now world's third richest</a>
+                <span>1d ago &middot; 11,897 readers</span>
+
+                <a href="#" id="news-read-more"> Read More</a>
+            </div>
+
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot;</small>
+                <p>Master the 5 principles of web design</p>
+                <div>
+                    <img src="./assets/images/user-1.png" alt="user-1">
+                    <img src="./assets/images/mi-logo.png" alt="user-1">
+                </div>
+                <b>Brand and Demand in Xiaomi</b>
+                <a href="#" id="ad-learn-more">Learn More</a>
+            </div>
+
+            <div class="sidebar-useful-links">
+                <a href="#">About</a>
+                <a href="#">Accessability</a>
+                <a href="#">Help center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Advertising</a>
+                <a href="#">Get the App</a>
+                <a href="#">More</a>
+            </div>
+
+            <div class="sidebar-copyright">
+                <img src="./assets/images/logo.png" alt="logo">
+                <p>LinkedIn &#169; 2022 All Rights Reserved </p>
+            </div>
+        </div>
+
+        <!-- ------------------ right content ends here ------------------ -->
+    </div>
+
+    <script type="text/javascript">
+        const profileMenu = document.querySelector(".profile-menu-wrapper");
+        const profileBtn = document.querySelector(".navbar-right");
+
+        profileBtn.addEventListener("click", () => {
+            console.log("hey");
+           profileMenu.classList.toggle("open-menu");
+        })
+    </script>
+</body>
+</html>
